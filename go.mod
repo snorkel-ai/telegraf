@@ -4,7 +4,9 @@ go 1.22.0
 
 toolchain go1.22.6
 
-replace golang.org/x/crypto => golang.org/x/crypto v0.31.0
+replace golang.org/x/crypto => golang.org/x/crypto v0.33.0
+
+replace golang.org/x/net => golang.org/x/net v0.35.0
 
 require (
 	cloud.google.com/go/bigquery v1.60.0
@@ -201,14 +203,14 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.21.0
 	go.starlark.net v0.0.0-20231121155337-90ade8b19d09
 	go.step.sm/crypto v0.44.8
-	golang.org/x/crypto v0.31.0
+	golang.org/x/crypto v0.33.0
 	golang.org/x/mod v0.17.0
-	golang.org/x/net v0.26.0
+	golang.org/x/net v0.35.0
 	golang.org/x/oauth2 v0.19.0
-	golang.org/x/sync v0.10.0
-	golang.org/x/sys v0.28.0
-	golang.org/x/term v0.27.0
-	golang.org/x/text v0.21.0
+	golang.org/x/sync v0.11.0
+	golang.org/x/sys v0.30.0
+	golang.org/x/term v0.29.0
+	golang.org/x/text v0.22.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20211230205640-daad0b7ba671
 	gonum.org/v1/gonum v0.14.0
 	google.golang.org/api v0.177.0
